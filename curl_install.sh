@@ -4,12 +4,12 @@
 #Source: https://github.com/scawp/Steam-Deck.Mount-External-Drive
 # Use at own Risk!
 
-#curl -sSL https://raw.githubusercontent.com/scawp/Steam-Deck.Mount-External-Drive/main/curl_install.sh | bash
+#curl -sSL https://raw.githubusercontent.com/scawp/Steam-Deck.Mount-External-Drive/I-Still-Need-zMount/curl_install.sh | bash
 
 #stop running script if anything returns an error (non-zero exit )
 set -e
 
-repo_url="https://raw.githubusercontent.com/scawp/Steam-Deck.Mount-External-Drive/pre-3.5"
+repo_url="https://raw.githubusercontent.com/scawp/Steam-Deck.Mount-External-Drive/I-Still-Need-zMount"
 repo_lib_dir="$repo_url/lib"
 
 tmp_dir="/tmp/scawp.SDMED.install"
@@ -93,7 +93,7 @@ function install_zmount () {
   steamos-add-to-steam "$script_install_dir/zMount.sh"
 }
 
-install_automount
+# install_automount
 install_zmount
 
 echo "Done."

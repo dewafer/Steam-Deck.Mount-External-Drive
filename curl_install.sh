@@ -81,6 +81,9 @@ function install_zmount () {
     exit 0;
   fi
 
+  echo "Making tmp folder $tmp_dir"
+  mkdir -p "$tmp_dir"
+
   echo "Downloading Required Files"
   curl -o "$tmp_dir/zMount.sh" "$repo_url/zMount.sh"
 

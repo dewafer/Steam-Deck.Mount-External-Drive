@@ -4,12 +4,12 @@
 #Source: https://github.com/scawp/Steam-Deck.Mount-External-Drive
 # Use at own Risk!
 
-#curl -sSL https://raw.githubusercontent.com/scawp/Steam-Deck.Mount-External-Drive/I-Still-Need-zMount/curl_install.sh | bash
+#curl -sSL https://raw.githubusercontent.com/dewafer/Steam-Deck.Mount-External-Drive/I-Still-Need-zMount/curl_install.sh | bash
 
 #stop running script if anything returns an error (non-zero exit )
 set -e
 
-repo_url="https://raw.githubusercontent.com/scawp/Steam-Deck.Mount-External-Drive/I-Still-Need-zMount"
+repo_url="https://raw.githubusercontent.com/dewafer/Steam-Deck.Mount-External-Drive/I-Still-Need-zMount"
 repo_lib_dir="$repo_url/lib"
 
 tmp_dir="/tmp/scawp.SDMED.install"
